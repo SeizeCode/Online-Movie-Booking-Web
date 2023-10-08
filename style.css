@@ -1,0 +1,17 @@
+.card:hover{
+    transform: scale(1.1);
+	box-shadow: 10px 4px 6px 9px rgb(156,155, 137, 245);
+    border: 2px solid;
+    border-radius: 3px;
+    background-position-x: center;
+    transition: .10 ease-out;
+    text-shadow: 5px;
+}
+p:hover{
+    transform: scale(1.1);
+    font-style: italic;
+    opacity: 1;
+}
+.card-header{
+    font-weight: 600;
+}

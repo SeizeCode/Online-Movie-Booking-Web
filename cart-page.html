@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cart page</title>
+    <!---->
+    <meta name="author" content="Nkosinathi Msiza" />
+    <!--bootstrap css styling files-->
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap-grid.css">
+    <!--<link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap-grid.min.css">-->
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/Font awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/Font awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body style="border: solid 1px;background-color:honeydew;">
+     <!--nav bar collapse-->
+     <nav class="navbar fixed-top  navbar-dark bg-dark" role="navigation">
+        
+        <div class="float-left"><!--film icon /home button-->
+            <a href="Home.html" class="fa fa-film"style="font-size:25px;">
+                
+            </a>
+        
+        </div>
+    
+        <div class="float-right">
+            <a href="cart-page.html" id="carticon" class="fa fa-shopping-cart" style="font-size:25px;">
+               
+            </a>
+            <span style="font: size 25px;color: lightgreen;" id="carttickets">0</span>
+        </div>
+        
+</nav>
+<br><br>
+<div class="#">
+    <h2>Cart</h2>
+</div>
+<!--cart table-->
+    <table class="table table-hover">
+        <thead>
+            <tr class="#"  style="background-color:lightblue;">
+                <th>Movies</th>
+                <th>Unit Price</th>
+                <th>Quantity</th> 
+                <th>Total Cost</th>  
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+      
+    </table>
+ 
+    
+    
+    
+    <!--javascript files to load after html has loaded-->
+    <script src="mydata.js"></script><!--script to load data-->
+    <script src="functionality.js"></script><!--functionality script-->
+</body>
+</html>
